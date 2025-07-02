@@ -19,5 +19,5 @@ var isAnagram = function(s, t) {
     for(let key in mapS){
         if(mapS[key] !== mapT[key]) return false
     }
-    return true
+    return true;
 };
